@@ -1,0 +1,52 @@
+.services{
+    background: url('../images/headerImages/header-bg.webp') no-repeat;
+    margin-top: 100px;
+    position: relative;
+}
+.services .section-title{
+    padding-top: 75px;
+}
+.services .section-text{
+    width: 50%;
+}
+.services .section-text1{
+    right: 50%;
+    bottom: 30% ;
+    position: absolute;
+}
+.services .section-text .read-more{
+    color: black;
+    text-decoration: underline;
+}
+.services .section-text .read-more:hover{
+    text-decoration: none;
+}
+.services .services-carousel{
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services .services-carousel .services-carousel_controls{
+    margin-top: 30px;
+    padding-bottom: 80px;
+    display: none;
+}
+.services .services-carousel .services-carousel_controls .left-control{
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+}
+.services .services-carousel .services-cards{
+  
+    overflow-y: auto;
+}
+/* MEDIA QUERIES STARTS */
+@media screen and (max-width: 480px){
+    .services .section-text{
+        width: 100%;
+    }
+}
+/* MEDIA QUERIES ENDS */
